@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C9FA8A7B52A7D40FFE97F78 /* libPods-JianGou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF68C06C4132FCFF1B1BCF44 /* libPods-JianGou.a */; };
 		7C50FBF31E70F60400336F0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FBF21E70F60400336F0F /* main.m */; };
 		7C50FBF61E70F60400336F0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FBF51E70F60400336F0F /* AppDelegate.m */; };
-		7C50FBF91E70F60400336F0F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FBF81E70F60400336F0F /* ViewController.m */; };
 		7C50FBFC1E70F60400336F0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FBFA1E70F60400336F0F /* Main.storyboard */; };
-		7C50FBFE1E70F60400336F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FBFD1E70F60400336F0F /* Assets.xcassets */; };
 		7C50FC011E70F60400336F0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FBFF1E70F60400336F0F /* LaunchScreen.storyboard */; };
 		7C50FC0C1E70F60400336F0F /* JianGouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC0B1E70F60400336F0F /* JianGouTests.m */; };
 		7C50FC171E70F60400336F0F /* JianGouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC161E70F60400336F0F /* JianGouUITests.m */; };
+		7C50FC251E70F89D00336F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FC241E70F89D00336F0F /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D34B5A1F803BA4D42F3384A /* Pods-JianGou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianGou.release.xcconfig"; path = "Pods/Target Support Files/Pods-JianGou/Pods-JianGou.release.xcconfig"; sourceTree = "<group>"; };
 		7C50FBEE1E70F60400336F0F /* JianGou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JianGou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C50FBF21E70F60400336F0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7C50FBF41E70F60400336F0F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C50FBF51E70F60400336F0F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7C50FBF71E70F60400336F0F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C50FBF81E70F60400336F0F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7C50FBFB1E70F60400336F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C50FBFD1E70F60400336F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C50FC001E70F60400336F0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C50FC021E70F60400336F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C50FC071E70F60400336F0F /* JianGouTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JianGouTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +49,9 @@
 		7C50FC121E70F60400336F0F /* JianGouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JianGouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C50FC161E70F60400336F0F /* JianGouUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianGouUITests.m; sourceTree = "<group>"; };
 		7C50FC181E70F60400336F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C50FC241E70F89D00336F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF68C06C4132FCFF1B1BCF44 /* libPods-JianGou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JianGou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E98E2EB2C552B533722FBC /* Pods-JianGou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianGou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JianGou/Pods-JianGou.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9FA8A7B52A7D40FFE97F78 /* libPods-JianGou.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +80,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8B6AF5FC4167EFD68E3AAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7E98E2EB2C552B533722FBC /* Pods-JianGou.debug.xcconfig */,
+				5D34B5A1F803BA4D42F3384A /* Pods-JianGou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		150B820609F176019ECDD25B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF68C06C4132FCFF1B1BCF44 /* libPods-JianGou.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C50FBE51E70F60400336F0F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,8 @@
 				7C50FC0A1E70F60400336F0F /* JianGouTests */,
 				7C50FC151E70F60400336F0F /* JianGouUITests */,
 				7C50FBEF1E70F60400336F0F /* Products */,
+				0F8B6AF5FC4167EFD68E3AAE /* Pods */,
+				150B820609F176019ECDD25B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +122,13 @@
 		7C50FBF01E70F60400336F0F /* JianGou */ = {
 			isa = PBXGroup;
 			children = (
+				7C50FC261E70FCDF00336F0F /* Classes */,
 				7C50FBF41E70F60400336F0F /* AppDelegate.h */,
 				7C50FBF51E70F60400336F0F /* AppDelegate.m */,
-				7C50FBF71E70F60400336F0F /* ViewController.h */,
-				7C50FBF81E70F60400336F0F /* ViewController.m */,
 				7C50FBFA1E70F60400336F0F /* Main.storyboard */,
-				7C50FBFD1E70F60400336F0F /* Assets.xcassets */,
 				7C50FBFF1E70F60400336F0F /* LaunchScreen.storyboard */,
 				7C50FC021E70F60400336F0F /* Info.plist */,
+				7C50FC241E70F89D00336F0F /* Assets.xcassets */,
 				7C50FBF11E70F60400336F0F /* Supporting Files */,
 			);
 			path = JianGou;
@@ -140,6 +160,261 @@
 			path = JianGouUITests;
 			sourceTree = "<group>";
 		};
+		7C50FC261E70FCDF00336F0F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC271E70FCDF00336F0F /* AD(广告) */,
+				7C50FC2B1E70FCDF00336F0F /* Center(动态:连麦) */,
+				7C50FC2F1E70FCDF00336F0F /* Concern(关注) */,
+				7C50FC331E70FCDF00336F0F /* Guid(引导页) */,
+				7C50FC371E70FCDF00336F0F /* Home(首页) */,
+				7C50FC3B1E70FCDF00336F0F /* Mine(我的) */,
+				7C50FC3F1E70FCDF00336F0F /* Other(其他) */,
+				7C50FC421E70FCDF00336F0F /* Prefecture(专区) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7C50FC271E70FCDF00336F0F /* AD(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC281E70FCDF00336F0F /* Controller */,
+				7C50FC291E70FCDF00336F0F /* Model */,
+				7C50FC2A1E70FCDF00336F0F /* View */,
+			);
+			path = "AD(广告)";
+			sourceTree = "<group>";
+		};
+		7C50FC281E70FCDF00336F0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C50FC291E70FCDF00336F0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C50FC2A1E70FCDF00336F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C50FC2B1E70FCDF00336F0F /* Center(动态:连麦) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC2C1E70FCDF00336F0F /* Controller */,
+				7C50FC2D1E70FCDF00336F0F /* Model */,
+				7C50FC2E1E70FCDF00336F0F /* View */,
+			);
+			path = "Center(动态:连麦)";
+			sourceTree = "<group>";
+		};
+		7C50FC2C1E70FCDF00336F0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C50FC2D1E70FCDF00336F0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C50FC2E1E70FCDF00336F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C50FC2F1E70FCDF00336F0F /* Concern(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC301E70FCDF00336F0F /* Controller */,
+				7C50FC311E70FCDF00336F0F /* Model */,
+				7C50FC321E70FCDF00336F0F /* View */,
+			);
+			path = "Concern(关注)";
+			sourceTree = "<group>";
+		};
+		7C50FC301E70FCDF00336F0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C50FC311E70FCDF00336F0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C50FC321E70FCDF00336F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C50FC331E70FCDF00336F0F /* Guid(引导页) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC341E70FCDF00336F0F /* Controller */,
+				7C50FC351E70FCDF00336F0F /* Model */,
+				7C50FC361E70FCDF00336F0F /* View */,
+			);
+			path = "Guid(引导页)";
+			sourceTree = "<group>";
+		};
+		7C50FC341E70FCDF00336F0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C50FC351E70FCDF00336F0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C50FC361E70FCDF00336F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C50FC371E70FCDF00336F0F /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC381E70FCDF00336F0F /* Controller */,
+				7C50FC391E70FCDF00336F0F /* Model */,
+				7C50FC3A1E70FCDF00336F0F /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		7C50FC381E70FCDF00336F0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C50FC391E70FCDF00336F0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C50FC3A1E70FCDF00336F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C50FC3B1E70FCDF00336F0F /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC3C1E70FCDF00336F0F /* Controller */,
+				7C50FC3D1E70FCDF00336F0F /* Model */,
+				7C50FC3E1E70FCDF00336F0F /* View */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		7C50FC3C1E70FCDF00336F0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C50FC3D1E70FCDF00336F0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C50FC3E1E70FCDF00336F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7C50FC3F1E70FCDF00336F0F /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC401E70FCDF00336F0F /* Category */,
+				7C50FC411E70FCDF00336F0F /* Tools */,
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		7C50FC401E70FCDF00336F0F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7C50FC411E70FCDF00336F0F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		7C50FC421E70FCDF00336F0F /* Prefecture(专区) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC431E70FCDF00336F0F /* Controller */,
+				7C50FC441E70FCDF00336F0F /* Model */,
+				7C50FC451E70FCDF00336F0F /* View */,
+			);
+			path = "Prefecture(专区)";
+			sourceTree = "<group>";
+		};
+		7C50FC431E70FCDF00336F0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7C50FC441E70FCDF00336F0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7C50FC451E70FCDF00336F0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +422,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C50FC1B1E70F60400336F0F /* Build configuration list for PBXNativeTarget "JianGou" */;
 			buildPhases = (
+				942B16B351ED085FFE8A585F /* [CP] Check Pods Manifest.lock */,
 				7C50FBEA1E70F60400336F0F /* Sources */,
 				7C50FBEB1E70F60400336F0F /* Frameworks */,
 				7C50FBEC1E70F60400336F0F /* Resources */,
+				370A64C444D7CDAA9FFCAE66 /* [CP] Embed Pods Frameworks */,
+				08EB00BEF59496859F13A6D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,7 +528,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C50FC011E70F60400336F0F /* LaunchScreen.storyboard in Resources */,
-				7C50FBFE1E70F60400336F0F /* Assets.xcassets in Resources */,
+				7C50FC251E70F89D00336F0F /* Assets.xcassets in Resources */,
 				7C50FBFC1E70F60400336F0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,12 +549,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08EB00BEF59496859F13A6D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JianGou/Pods-JianGou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		370A64C444D7CDAA9FFCAE66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JianGou/Pods-JianGou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		942B16B351ED085FFE8A585F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7C50FBEA1E70F60400336F0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C50FBF91E70F60400336F0F /* ViewController.m in Sources */,
 				7C50FBF61E70F60400336F0F /* AppDelegate.m in Sources */,
 				7C50FBF31E70F60400336F0F /* main.m in Sources */,
 			);
@@ -425,25 +750,29 @@
 		};
 		7C50FC1C1E70F60400336F0F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E98E2EB2C552B533722FBC /* Pods-JianGou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46S977277P;
 				INFOPLIST_FILE = JianGou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tackor.JianGou;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tackor.jiangou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7C50FC1D1E70F60400336F0F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D34B5A1F803BA4D42F3384A /* Pods-JianGou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46S977277P;
 				INFOPLIST_FILE = JianGou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tackor.JianGou;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tackor.jiangou;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -516,6 +845,7 @@
 				7C50FC1D1E70F60400336F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C50FC1E1E70F60400336F0F /* Build configuration list for PBXNativeTarget "JianGouTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +854,7 @@
 				7C50FC201E70F60400336F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C50FC211E70F60400336F0F /* Build configuration list for PBXNativeTarget "JianGouUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +863,7 @@
 				7C50FC231E70F60400336F0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
