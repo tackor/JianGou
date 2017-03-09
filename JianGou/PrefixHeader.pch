@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  JianGou
+//
+//  Created by 时空矩人 on 2017/3/9.
+//  Copyright © 2017年 时空矩人. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//==================== 日志输出 ===================
+#ifdef DEBUG         // 开发阶段-DEBUG阶段:使用Log
+#define TKLog(...) NSLog(__VA_ARGS__)
+#else                // 发布阶段-上线阶段:移除Log
+#define TKGLog(...)
+#endif
+
+// 方法输出
+#define TKLogFunc TKLog(@"%s", __func__);
+
+//=================== URL ===================
+//广告图片
+#define AD_URL @"https://kascdn.kascend.com/jellyfish/opening/screen/170307/1488891734621.JPG"
+
+//广告内容
+#define AD_CONTENT_URL @"https://www.jianshu.com"
+
+//=================== APP相关 ===================
+//当前版本
+#define APP_VERSION  [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+//=================== 设备相关 ===================
+//屏幕高度
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.height
+
+//屏幕高度
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.width
+
+//屏幕尺寸
+#define IPHONE4 (([UIScreen mainScreen].bounds.size.width == 320) && ([UIScreen mainScreen].bounds.size.height == 480))
+
+#define IPHONE5 (([UIScreen mainScreen].bounds.size.width == 320) && ([UIScreen mainScreen].bounds.size.height == 568))
+
+#define IPHONE6 (([UIScreen mainScreen].bounds.size.width == 375) && ([UIScreen mainScreen].bounds.size.height == 667))
+
+#define IPHONE6P (([UIScreen mainScreen].bounds.size.width == 414) && ([UIScreen mainScreen].bounds.size.height == 736))
+
+#endif /* PrefixHeader_pch */

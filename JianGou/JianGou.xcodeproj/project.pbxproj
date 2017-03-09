@@ -59,13 +59,13 @@
 		7C50FC461E7102CD00336F0F /* TKAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAdViewController.h; sourceTree = "<group>"; };
 		7C50FC471E7102CD00336F0F /* TKAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAdViewController.m; sourceTree = "<group>"; };
 		7C50FC481E7102CD00336F0F /* TKAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKAdViewController.xib; sourceTree = "<group>"; };
+		7C50FC511E712C3900336F0F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		7C50FC551E71445700336F0F /* TKNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKNewFeatureController.h; sourceTree = "<group>"; };
 		7C50FC561E71445700336F0F /* TKNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKNewFeatureController.m; sourceTree = "<group>"; };
 		7C50FC581E7147B500336F0F /* TKNewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKNewFeatureCell.h; sourceTree = "<group>"; };
 		7C50FC591E7147B500336F0F /* TKNewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKNewFeatureCell.m; sourceTree = "<group>"; };
 		7C50FC5A1E7147B500336F0F /* TKNewFeatureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKNewFeatureCell.xib; sourceTree = "<group>"; };
 		7C50FC5D1E714B2D00336F0F /* TKNewFeatureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKNewFeatureController.xib; sourceTree = "<group>"; };
-		7C50FC5F1E7164C600336F0F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AF68C06C4132FCFF1B1BCF44 /* libPods-JianGou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JianGou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E98E2EB2C552B533722FBC /* Pods-JianGou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianGou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JianGou/Pods-JianGou.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,6 +138,7 @@
 		7C50FBF01E70F60400336F0F /* JianGou */ = {
 			isa = PBXGroup;
 			children = (
+				7C50FC511E712C3900336F0F /* PrefixHeader.pch */,
 				7C50FBF41E70F60400336F0F /* AppDelegate.h */,
 				7C50FBF51E70F60400336F0F /* AppDelegate.m */,
 				7C50FC261E70FCDF00336F0F /* Classes */,
@@ -146,7 +147,6 @@
 				7C50FC021E70F60400336F0F /* Info.plist */,
 				7C50FC241E70F89D00336F0F /* Assets.xcassets */,
 				7C50FBF11E70F60400336F0F /* Supporting Files */,
-				7C50FC5F1E7164C600336F0F /* PrefixHeader.pch */,
 			);
 			path = JianGou;
 			sourceTree = "<group>";
