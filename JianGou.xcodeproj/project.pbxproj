@@ -15,6 +15,9 @@
 		7C50FC0C1E70F60400336F0F /* JianGouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC0B1E70F60400336F0F /* JianGouTests.m */; };
 		7C50FC171E70F60400336F0F /* JianGouUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC161E70F60400336F0F /* JianGouUITests.m */; };
 		7C50FC251E70F89D00336F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FC241E70F89D00336F0F /* Assets.xcassets */; };
+		7C50FC491E7102CD00336F0F /* TKAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC471E7102CD00336F0F /* TKAdViewController.m */; };
+		7C50FC4A1E7102CD00336F0F /* TKAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FC481E7102CD00336F0F /* TKAdViewController.xib */; };
+		7C50FC541E71337900336F0F /* TKAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC531E71337900336F0F /* TKAdItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		7C50FC161E70F60400336F0F /* JianGouUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JianGouUITests.m; sourceTree = "<group>"; };
 		7C50FC181E70F60400336F0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C50FC241E70F89D00336F0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C50FC461E7102CD00336F0F /* TKAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAdViewController.h; sourceTree = "<group>"; };
+		7C50FC471E7102CD00336F0F /* TKAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAdViewController.m; sourceTree = "<group>"; };
+		7C50FC481E7102CD00336F0F /* TKAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKAdViewController.xib; sourceTree = "<group>"; };
+		7C50FC511E712C3900336F0F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7C50FC521E71337900336F0F /* TKAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAdItem.h; sourceTree = "<group>"; };
+		7C50FC531E71337900336F0F /* TKAdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAdItem.m; sourceTree = "<group>"; };
 		AF68C06C4132FCFF1B1BCF44 /* libPods-JianGou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JianGou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E98E2EB2C552B533722FBC /* Pods-JianGou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianGou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JianGou/Pods-JianGou.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,9 +131,10 @@
 		7C50FBF01E70F60400336F0F /* JianGou */ = {
 			isa = PBXGroup;
 			children = (
-				7C50FC261E70FCDF00336F0F /* Classes */,
+				7C50FC511E712C3900336F0F /* PrefixHeader.pch */,
 				7C50FBF41E70F60400336F0F /* AppDelegate.h */,
 				7C50FBF51E70F60400336F0F /* AppDelegate.m */,
+				7C50FC261E70FCDF00336F0F /* Classes */,
 				7C50FBFA1E70F60400336F0F /* Main.storyboard */,
 				7C50FBFF1E70F60400336F0F /* LaunchScreen.storyboard */,
 				7C50FC021E70F60400336F0F /* Info.plist */,
@@ -169,7 +179,7 @@
 				7C50FC331E70FCDF00336F0F /* Guid(引导页) */,
 				7C50FC371E70FCDF00336F0F /* Home(首页) */,
 				7C50FC3B1E70FCDF00336F0F /* Mine(我的) */,
-				7C50FC3F1E70FCDF00336F0F /* Other(其他) */,
+				7C50FC4D1E7129B200336F0F /* Other(其他) */,
 				7C50FC421E70FCDF00336F0F /* Prefecture(专区) */,
 			);
 			path = Classes;
@@ -188,6 +198,9 @@
 		7C50FC281E70FCDF00336F0F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7C50FC461E7102CD00336F0F /* TKAdViewController.h */,
+				7C50FC471E7102CD00336F0F /* TKAdViewController.m */,
+				7C50FC481E7102CD00336F0F /* TKAdViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -195,6 +208,8 @@
 		7C50FC291E70FCDF00336F0F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7C50FC521E71337900336F0F /* TKAdItem.h */,
+				7C50FC531E71337900336F0F /* TKAdItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -361,29 +376,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		7C50FC3F1E70FCDF00336F0F /* Other(其他) */ = {
-			isa = PBXGroup;
-			children = (
-				7C50FC401E70FCDF00336F0F /* Category */,
-				7C50FC411E70FCDF00336F0F /* Tools */,
-			);
-			path = "Other(其他)";
-			sourceTree = "<group>";
-		};
-		7C50FC401E70FCDF00336F0F /* Category */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		7C50FC411E70FCDF00336F0F /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
 		7C50FC421E70FCDF00336F0F /* Prefecture(专区) */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +405,29 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7C50FC4D1E7129B200336F0F /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				7C50FC4E1E7129B200336F0F /* Category */,
+				7C50FC501E7129B200336F0F /* Tools */,
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		7C50FC4E1E7129B200336F0F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7C50FC501E7129B200336F0F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -480,6 +495,7 @@
 		7C50FBE61E70F60400336F0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TK;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "时空矩人";
 				TargetAttributes = {
@@ -529,6 +545,7 @@
 			files = (
 				7C50FC011E70F60400336F0F /* LaunchScreen.storyboard in Resources */,
 				7C50FC251E70F89D00336F0F /* Assets.xcassets in Resources */,
+				7C50FC4A1E7102CD00336F0F /* TKAdViewController.xib in Resources */,
 				7C50FBFC1E70F60400336F0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,7 +619,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C50FC541E71337900336F0F /* TKAdItem.m in Sources */,
 				7C50FBF61E70F60400336F0F /* AppDelegate.m in Sources */,
+				7C50FC491E7102CD00336F0F /* TKAdViewController.m in Sources */,
 				7C50FBF31E70F60400336F0F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -754,6 +773,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46S977277P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JianGou/PrefixHeader.pch";
 				INFOPLIST_FILE = JianGou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tackor.jiangou;
@@ -768,6 +789,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 46S977277P;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JianGou/PrefixHeader.pch";
 				INFOPLIST_FILE = JianGou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tackor.jiangou;
