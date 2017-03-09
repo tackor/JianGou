@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "TKAdViewController.h"
+#import "TKNewFeatureController.h"
 
 @interface AppDelegate ()
 
@@ -23,8 +24,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     //2. 设置根控制器
+    // 使用 NSUserDefaults 读取用户数据
+    BOOL isNew = ![[NSUserDefaults standardUserDefaults] boolForKey:[NSString stringWithFormat:@"ISNEWFEATURE%@", APP_VERSION]];
     
-    self.window.rootViewController = [[TKAdViewController alloc] init];
+    if (isNew) {    // 如果是第一次使用App,进入引导页
+        self.window.rootViewController = [[TKNewFeatureController alloc] init];
+    } else {
+        self.window.rootViewController = [[TKAdViewController alloc] init];
+    }
     
     //3. 显示窗口
     [self.window makeKeyAndVisible];

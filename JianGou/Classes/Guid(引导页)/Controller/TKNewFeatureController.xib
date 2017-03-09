@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TKNewFeatureController">
+            <connections>
+                <outlet property="pageControl" destination="wbO-XQ-IjP" id="0je-i2-6d3"/>
+                <outlet property="startNewLiveBtn" destination="JKj-jF-hxH" id="EfV-h5-3Fx"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKj-jF-hxH">
+                    <rect key="frame" x="125" y="545" width="124" height="46"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="124" id="E26-DW-IqP"/>
+                        <constraint firstAttribute="height" constant="46" id="uTq-jf-1uL"/>
+                    </constraints>
+                    <state key="normal" image="img_guide_go"/>
+                    <connections>
+                        <action selector="startNewLive:" destination="-1" eventType="touchUpInside" id="qw1-Fz-ZYW"/>
+                    </connections>
+                </button>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="wbO-XQ-IjP">
+                    <rect key="frame" x="168" y="599" width="39" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="WZV-kc-Y2G"/>
+                        <constraint firstAttribute="width" constant="39" id="dE3-RY-bn7"/>
+                    </constraints>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wbO-XQ-IjP" firstAttribute="top" secondItem="JKj-jF-hxH" secondAttribute="bottom" constant="8" id="OUO-Ug-2oY"/>
+                <constraint firstAttribute="bottom" secondItem="JKj-jF-hxH" secondAttribute="bottom" constant="76" id="PMp-tr-jqa"/>
+                <constraint firstItem="JKj-jF-hxH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ffg-h2-ffQ"/>
+                <constraint firstItem="wbO-XQ-IjP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="q5c-BU-qut"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_guide_go" width="124" height="46"/>
+    </resources>
+</document>

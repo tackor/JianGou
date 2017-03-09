@@ -17,7 +17,10 @@
 		7C50FC251E70F89D00336F0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FC241E70F89D00336F0F /* Assets.xcassets */; };
 		7C50FC491E7102CD00336F0F /* TKAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC471E7102CD00336F0F /* TKAdViewController.m */; };
 		7C50FC4A1E7102CD00336F0F /* TKAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FC481E7102CD00336F0F /* TKAdViewController.xib */; };
-		7C50FC541E71337900336F0F /* TKAdItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC531E71337900336F0F /* TKAdItem.m */; };
+		7C50FC571E71445700336F0F /* TKNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC561E71445700336F0F /* TKNewFeatureController.m */; };
+		7C50FC5B1E7147B500336F0F /* TKNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C50FC591E7147B500336F0F /* TKNewFeatureCell.m */; };
+		7C50FC5C1E7147B500336F0F /* TKNewFeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FC5A1E7147B500336F0F /* TKNewFeatureCell.xib */; };
+		7C50FC5E1E714B2D00336F0F /* TKNewFeatureController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C50FC5D1E714B2D00336F0F /* TKNewFeatureController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +60,12 @@
 		7C50FC471E7102CD00336F0F /* TKAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAdViewController.m; sourceTree = "<group>"; };
 		7C50FC481E7102CD00336F0F /* TKAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKAdViewController.xib; sourceTree = "<group>"; };
 		7C50FC511E712C3900336F0F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		7C50FC521E71337900336F0F /* TKAdItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAdItem.h; sourceTree = "<group>"; };
-		7C50FC531E71337900336F0F /* TKAdItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAdItem.m; sourceTree = "<group>"; };
+		7C50FC551E71445700336F0F /* TKNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKNewFeatureController.h; sourceTree = "<group>"; };
+		7C50FC561E71445700336F0F /* TKNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKNewFeatureController.m; sourceTree = "<group>"; };
+		7C50FC581E7147B500336F0F /* TKNewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKNewFeatureCell.h; sourceTree = "<group>"; };
+		7C50FC591E7147B500336F0F /* TKNewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKNewFeatureCell.m; sourceTree = "<group>"; };
+		7C50FC5A1E7147B500336F0F /* TKNewFeatureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKNewFeatureCell.xib; sourceTree = "<group>"; };
+		7C50FC5D1E714B2D00336F0F /* TKNewFeatureController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TKNewFeatureController.xib; sourceTree = "<group>"; };
 		AF68C06C4132FCFF1B1BCF44 /* libPods-JianGou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JianGou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E98E2EB2C552B533722FBC /* Pods-JianGou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JianGou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JianGou/Pods-JianGou.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,9 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				7C50FC271E70FCDF00336F0F /* AD(广告) */,
+				7C50FC331E70FCDF00336F0F /* Guid(引导页) */,
 				7C50FC2B1E70FCDF00336F0F /* Center(动态:连麦) */,
 				7C50FC2F1E70FCDF00336F0F /* Concern(关注) */,
-				7C50FC331E70FCDF00336F0F /* Guid(引导页) */,
 				7C50FC371E70FCDF00336F0F /* Home(首页) */,
 				7C50FC3B1E70FCDF00336F0F /* Mine(我的) */,
 				7C50FC4D1E7129B200336F0F /* Other(其他) */,
@@ -208,8 +215,6 @@
 		7C50FC291E70FCDF00336F0F /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7C50FC521E71337900336F0F /* TKAdItem.h */,
-				7C50FC531E71337900336F0F /* TKAdItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +301,9 @@
 		7C50FC341E70FCDF00336F0F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7C50FC551E71445700336F0F /* TKNewFeatureController.h */,
+				7C50FC561E71445700336F0F /* TKNewFeatureController.m */,
+				7C50FC5D1E714B2D00336F0F /* TKNewFeatureController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -310,6 +318,9 @@
 		7C50FC361E70FCDF00336F0F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7C50FC581E7147B500336F0F /* TKNewFeatureCell.h */,
+				7C50FC591E7147B500336F0F /* TKNewFeatureCell.m */,
+				7C50FC5A1E7147B500336F0F /* TKNewFeatureCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -545,7 +556,9 @@
 			files = (
 				7C50FC011E70F60400336F0F /* LaunchScreen.storyboard in Resources */,
 				7C50FC251E70F89D00336F0F /* Assets.xcassets in Resources */,
+				7C50FC5E1E714B2D00336F0F /* TKNewFeatureController.xib in Resources */,
 				7C50FC4A1E7102CD00336F0F /* TKAdViewController.xib in Resources */,
+				7C50FC5C1E7147B500336F0F /* TKNewFeatureCell.xib in Resources */,
 				7C50FBFC1E70F60400336F0F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,8 +632,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C50FC541E71337900336F0F /* TKAdItem.m in Sources */,
+				7C50FC571E71445700336F0F /* TKNewFeatureController.m in Sources */,
 				7C50FBF61E70F60400336F0F /* AppDelegate.m in Sources */,
+				7C50FC5B1E7147B500336F0F /* TKNewFeatureCell.m in Sources */,
 				7C50FC491E7102CD00336F0F /* TKAdViewController.m in Sources */,
 				7C50FBF31E70F60400336F0F /* main.m in Sources */,
 			);

@@ -30,6 +30,10 @@
     
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:AD_CONTENT_URL] options:@{} completionHandler:nil];
+}
+
 - (void)timeChange:(id)timer {
     static int i = 2;
     if (i < 0) { // 2秒，销毁当前界面和定时器
